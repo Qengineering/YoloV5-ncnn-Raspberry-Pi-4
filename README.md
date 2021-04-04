@@ -48,7 +48,7 @@ yolov5s.param <br/>
 ------------
 
 ## Running the app.
-To run the application load the project file FaceRecognition.cbp in Code::Blocks.<br/> 
+To run the application load the project file YoloV5.cbp in Code::Blocks.<br/> 
 Next, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/><br/>
 Many thanks to [nihui](https://github.com/nihui/) again!<br/>
 ![output image]( https://qengineering.eu/images/test_busV5.jpg )

@@ -41,7 +41,7 @@ busstop.jpg <br/>
 YoloV5.cpb <br/>
 yoloV5.cpp <br/>
 yolov5s.bin <br/>
-yolov5s.param <br/><br/>
+yolov5s.param <br/>
 
 ------------
 

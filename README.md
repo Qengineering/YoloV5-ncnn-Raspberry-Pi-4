@@ -20,8 +20,10 @@ Special made for a Jetson Nano see [Q-engineering deep learning examples](https:
 
 ## Dependencies.
 To run the application, you have to:
-- The Tencent ncnn framework installed. [Install ncnn](https://qengineering.eu/install-ncnn-on-jetson-nano.html) <br/>
-- Code::Blocks installed. (`$ sudo apt-get install codeblocks`)
+- A raspberry Pi 4 with a 32 or 64-bit operating system. It can be the Raspberry 64-bit OS, or Ubuntu 18.04 / 20.04. [Install 64-bit OS](https://qengineering.eu/install-raspberry-64-os.html) <br/>
+- The Tencent ncnn framework installed. [Install ncnn](https://qengineering.eu/install-ncnn-on-raspberry-pi-4.html) <br/>
+- OpenCV 64 bit installed. [Install OpenCV 4.5](https://qengineering.eu/install-opencv-4.5-on-raspberry-64-os.html) <br/>
+- Code::Blocks installed. (```$ sudo apt-get install codeblocks```)
 
 ------------
 
@@ -29,7 +31,7 @@ To run the application, you have to:
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/YoloV5-ncnn-Jetson-Nano/archive/refs/heads/master.zip <br/>
+$ wget https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4/archive/refs/heads/master.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip, LICENSE and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>

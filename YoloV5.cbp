@@ -35,8 +35,6 @@
 			<Add option="-Wno-unknown-pragmas" />
 			<Add option="-isystem" />
 			<Add option="-fPIE" />
-			<Add option="-fno-rtti" />
-			<Add option="-fno-exceptions" />
 			<Add option="-fopenmp" />
 			<Add option="-pthread" />
 			<Add option="-DNDEBUG" />
@@ -44,7 +42,6 @@
 			<Add directory="/usr/local/include/ncnn" />
 		</Compiler>
 		<Linker>
-			<Add option="-O3" />
 			<Add option="-fopenmp" />
 			<Add option="`pkg-config --libs --cflags opencv4`" />
 			<Add option="-ldl" />

@@ -1,4 +1,4 @@
-# YoloV5 ncnn Raspberry Pi 4
+# YoloV5 Raspberry Pi 4
 ![output image]( https://qengineering.eu/images/test_parkV5.jpg )
 ## YoloV5 with the ncnn framework. <br/>
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>

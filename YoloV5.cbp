@@ -37,11 +37,15 @@
 			<Add option="-fPIE" />
 			<Add option="-fopenmp" />
 			<Add option="-pthread" />
+			<Add option="-march=armv8-a" />
+			<Add option="-fno-rtti" />
+			<Add option="-std=gnu++11" />
 			<Add option="-DNDEBUG" />
 			<Add directory="/usr/local/include/opencv4" />
 			<Add directory="/usr/local/include/ncnn" />
 		</Compiler>
 		<Linker>
+			<Add option="-O3" />
 			<Add option="-fopenmp" />
 			<Add option="`pkg-config --libs --cflags opencv4`" />
 			<Add option="-ldl" />
@@ -50,6 +54,7 @@
 			<Add option="-lgomp" />
 			<Add option="-DNDEBUG" />
 			<Add option="-rdynamic" />
+			<Add option="-march=armv8-a" />
 			<Add library="/usr/local/lib/ncnn/libncnn.a" />
 		</Linker>
 		<Unit filename="yolov5.cpp" />

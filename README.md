@@ -16,6 +16,9 @@ Special made for a bare Raspberry Pi 4, see [Q-engineering deep learning example
 | [YoloV4](https://github.com/Qengineering/YoloV4-ncnn-Raspberry-Pi-4) | 416x416 tiny | 80 | 21.7 | 11.2 FPS | 3.4 FPS |
 | [YoloV4](https://github.com/Qengineering/YoloV4-ncnn-Raspberry-Pi-4) | 608x608 full | 80 | 45.3 | 0.7 FPS | 0.2 FPS |
 | [YoloV5](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 small| 80 | 22.5 | 4.0 FPS | **1.6 FPS** |
+| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 nano | 80 | 25.8 | 17.6 FPS | 7.0 FPS |
+| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 tiny | 80 | 32.8 | 8.3 FPS | 2.8 FPS |
+| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 640x640 small | 80 | 40.5 | 2.6 FPS | 0.9 FPS |
 
 ------------
 
@@ -51,6 +54,11 @@ yolov5s.param <br/>
 ## Running the app.
 To run the application load the project file YoloV5.cbp in Code::Blocks.<br/> 
 Next, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/><br/>
-Many thanks to [nihui](https://github.com/nihui/) again!<br/>
+Many thanks to [nihui](https://github.com/nihui/) again!<br/><br/>
 ![output image]( https://qengineering.eu/images/test_busV5.jpg )
+
+------------
+
+[![paypal](https://qengineering.eu/images/TipJarSmall4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPZTM5BB3FCYL) 
+
 

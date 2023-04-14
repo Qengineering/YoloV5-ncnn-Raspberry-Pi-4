@@ -466,6 +466,7 @@ int main(int argc, char** argv)
     // the ncnn model https://github.com/nihui/ncnn-assets/tree/master/models
     yolov5.load_param("yolov5s.param");
     yolov5.load_model("yolov5s.bin");
+    yolov5.opt.num_threads=4;
 
     std::vector<Object> objects;
     detect_yolov5(m, objects);

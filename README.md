@@ -8,7 +8,7 @@ Special made for a bare Raspberry Pi 4, see [Q-engineering deep learning example
 ------------
 
 ## Benchmark.
-| Model  | size | objects | mAP | Jetson Nano | RPi 4 1950 MHz | Rock 5 | Rock 5 NPU |
+| Model  | size | objects | mAP | Jetson Nano | RPi 4 1950 | Rock 5 | Rock 5 NPU |
 | ------------- | :-----:  | :-----:  | :-----:  | :-------------:  | :-------------: | :-----: | :------: |
 | [NanoDet](https://github.com/Qengineering/NanoDet-ncnn-Raspberry-Pi-4) | 320x320 | 80 | 20.6  |  26.2 FPS | 13.0 FPS | 36.0 FPS | |
 | [NanoDet Plus](https://github.com/Qengineering/NanoDetPlus-ncnn-Raspberry-Pi-4) | 416x416 | 80 | 30.4  |  18.5 FPS | 5.0 FPS | 24.9 FPS | |

@@ -18,17 +18,18 @@ Numbers in **FPS** and reflect only the inference timing. Grabbing frames, post-
 | [YoloFastestV2](https://github.com/Qengineering/YoloFastestV2-ncnn-Raspberry-Pi-4) | 352x352 | 24.1 |  38.4 | 18.8 | 78.5 | 65.4 | ||||
 | [YoloV2](https://github.com/Qengineering/YoloV2-ncnn-Raspberry-Pi-4) <sup>20</sup>| 416x416 | 19.2 |  10.1 | 3.0 | 24.0 | 20.0 | ||||
 | [YoloV3](https://github.com/Qengineering/YoloV3-ncnn-Raspberry-Pi-4) <sup>20</sup>| 352x352 tiny | 16.6 | 17.7 | 4.4 | 18.1 | 15.0 | ||||
-| [YoloV4](https://github.com/Qengineering/YoloV4-ncnn-Raspberry-Pi-4) | 416x416 tiny | 21.7 | 16.1 | 3.4 | 26.8 | 22.4 | ||||
+| [YoloV4](https://github.com/Qengineering/YoloV4-ncnn-Raspberry-Pi-4) | 416x416 tiny | 21.7 | 16.1 | 3.4 | 17.5 | 22.4 | ||||
 | [YoloV4](https://github.com/Qengineering/YoloV4-ncnn-Raspberry-Pi-4) | 608x608 full | 45.3 | 1.3 | 0.2 | 1.82 | 1.5 | ||||
-| [YoloV5](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 nano | 22.5 | 5.0 | 1.6 | 14.9 | 12.5 | 58.8 | 14.8 | 19.0 | 100 |
-| [YoloV5](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 small | 22.5 | 5.0 | 1.6 | 14.9 | 12.5 | 37.7 | 11.7 | 9.25 | 100 |
-| [YoloV6](https://github.com/Qengineering/YoloV6-ncnn-Raspberry-Pi-4) | 640x640 nano | 35.0 | 10.5 | 2.7 | 25.0 | 20.8 | 63.0 | 18.0 |||
-| [YoloV7](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 tiny | 38.7 | 8.5 | 2.1 | 21.5 | 17.9 |  53.4 | 16.1 | 15.0 ||
+| [YoloV5](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 nano | 22.5 | 5.0 | 1.6 | 13.6 | 12.5 | 58.8 | 14.8 | 19.0 | 100 |
+| [YoloV5](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 small | 22.5 | 5.0 | 1.6 | 6.3 | 12.5 | 37.7 | 11.7 | 9.25 | 100 |
+| [YoloV6](https://github.com/Qengineering/YoloV6-ncnn-Raspberry-Pi-4) | 640x640 nano | 35.0 | 10.5 | 2.7 | 15.8 | 20.8 | 63.0 | 18.0 |||
+| [YoloV7](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 tiny | 38.7 | 8.5 | 2.1 | 14.4 | 17.9 |  53.4 | 16.1 | 15.0 ||
 | [YoloV8](https://github.com/Qengineering/YoloV8-ncnn-Raspberry-Pi-4) | 640x640 nano | 37.3 | 14.5 | 3.1 | 20.0 | 16.3 | 53.1 | 18.2 |||
 | [YoloV8](https://github.com/Qengineering/YoloV8-ncnn-Raspberry-Pi-4) | 640x640 small | 44.9 | 4.5 | 1.47 | 11.0 | 9.2 | 28.5 | 8.9 |||
-| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 nano | 25.8 | 22.6 | 7.0 | 34.2 | 28.5 | ||||
-| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 tiny | 32.8 | 11.35 | 2.8 | 21.8 | 18.1 | ||||
-| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 640x640 small | 40.5 | 3.65 | 0.9 | 9.0 | 7.5 | 30.0 | 10.0 |||
+| [YoloV9](https://github.com/Qengineering/YoloV9-ncnn-Raspberry-Pi-4) | 640x640 comp | 53.0 | 1.2 FPS | 0.28 FPS | 1.5 FPS | 1.2 FPS | |||| 
+| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 nano | 25.8 | 22.6 | 7.0 | 38.6 | 28.5 | ||||
+| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 tiny | 32.8 | 11.35 | 2.8 | 17.2 | 18.1 | ||||
+| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 640x640 small | 40.5 | 3.65 | 0.9 | 4.5 | 7.5 | 30.0 | 10.0 |||
 
 <b><sup>20</sup></b> Recognize 20 objects (VOC) instead of 80 (COCO)
 

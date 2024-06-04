@@ -26,7 +26,7 @@ Numbers in **FPS** and reflect only the inference timing. Grabbing frames, post-
 | [YoloV7](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 tiny | 38.7 | 8.5 | 2.1 | 14.4 | 17.9 |  53.4 | 16.1 | 15.0 ||
 | [YoloV8](https://github.com/Qengineering/YoloV8-ncnn-Raspberry-Pi-4) | 640x640 nano | 37.3 | 14.5 | 3.1 | 20.0 | 16.3 | 53.1 | 18.2 |||
 | [YoloV8](https://github.com/Qengineering/YoloV8-ncnn-Raspberry-Pi-4) | 640x640 small | 44.9 | 4.5 | 1.47 | 11.0 | 9.2 | 28.5 | 8.9 |||
-| [YoloV9](https://github.com/Qengineering/YoloV9-ncnn-Raspberry-Pi-4) | 640x640 comp | 53.0 | 1.2 FPS | 0.28 FPS | 1.5 FPS | 1.2 FPS | |||| 
+| [YoloV9](https://github.com/Qengineering/YoloV9-ncnn-Raspberry-Pi-4) | 640x640 comp | 53.0 | 1.2 | 0.28 | 1.5 | 1.2 | |||| 
 | [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 nano | 25.8 | 22.6 | 7.0 | 38.6 | 28.5 | ||||
 | [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 tiny | 32.8 | 11.35 | 2.8 | 17.2 | 18.1 | ||||
 | [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 640x640 small | 40.5 | 3.65 | 0.9 | 4.5 | 7.5 | 30.0 | 10.0 |||

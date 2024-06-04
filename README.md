@@ -10,7 +10,7 @@ Specially made for a bare Raspberry Pi 4, see [Q-engineering deep learning examp
 ## Benchmark.
 Numbers in **FPS** and reflect only the inference timing. Grabbing frames, post-processing and drawing are not taken into account.
 
-| Model  | size | mAP | Jetson Nano | RPi 4 1950 | RPi 5 2900 | Rock 5 | RK3588<br>NPU | RK3566/68<br>NPU | Nano<br>TensorRT | Orin<br>TensorRT |
+| Model  | size | mAP | Jetson Nano | RPi 4 1950 | RPi 5 2900 | Rock 5 | RK3588<sup>1</sup><br>NPU | RK3566/68<sup>2</sup><br>NPU | Nano<br>TensorRT | Orin<br>TensorRT |
 | ------------- | :-----:  | :-----:  | :-------------:  | :-------------: | :-----: | :-----: | :-------------:  | :-------------: | :-----: | :-----: |
 | [NanoDet](https://github.com/Qengineering/NanoDet-ncnn-Raspberry-Pi-4) | 320x320 | 20.6  |  26.2 | 13.0 | 43.2  |36.0  |||||
 | [NanoDet Plus](https://github.com/Qengineering/NanoDetPlus-ncnn-Raspberry-Pi-4) | 416x416 | 30.4  |  18.5  | 5.0  | 30.0  | 24.9  |||||
@@ -31,6 +31,8 @@ Numbers in **FPS** and reflect only the inference timing. Grabbing frames, post-
 | [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 tiny | 32.8 | 11.35 | 2.8 | 17.2 | 18.1 | ||||
 | [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 640x640 small | 40.5 | 3.65 | 0.9 | 4.5 | 7.5 | 30.0 | 10.0 |||
 
+<b><sup>1</sup></b> The Rock 5 and Orange Pi5 have the RK3588 on board.<br>
+<b><sup>2</sup></b> The Rock 3, Radxa Zero 3 and Orange Pi3B have the RK3566 on board.<br>
 <b><sup>20</sup></b> Recognize 20 objects (VOC) instead of 80 (COCO)
 
 ------------

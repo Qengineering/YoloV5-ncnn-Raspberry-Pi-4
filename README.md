@@ -8,24 +8,27 @@ Specially made for a bare Raspberry Pi 4, see [Q-engineering deep learning examp
 ------------
 
 ## Benchmark.
-| Model  | size | mAP | Jetson Nano | RPi 4 1950 | RPi 5 2900 | Rock 5 | NPU<sup>RK3588</sup> | NPU<sup>RK3566</sup> | Orin Nano<sup>TensorRT</sup> | Nano<sup>TensorRT</sup> 
+Numbers in **FPS** and reflect only the inference timing. Grabbing frames, post-processing and drawing are not taken into account.
+
+| Model  | size | mAP | Jetson Nano | RPi 4 1950 | RPi 5 2900 | Rock 5 | RK3588<br>NPU | RK3566/68<br>NPU | Nano<br>TensorRT | Orin<br>TensorRT |
 | ------------- | :-----:  | :-----:  | :-------------:  | :-------------: | :-----: | :-----: | :-------------:  | :-------------: | :-----: | :-----: |
-| [NanoDet](https://github.com/Qengineering/NanoDet-ncnn-Raspberry-Pi-4) | 320x320 | 20.6  |  26.2 FPS | 13.0 FPS | 43.2 FPS |36.0 FPS |||||
-| [NanoDet Plus](https://github.com/Qengineering/NanoDetPlus-ncnn-Raspberry-Pi-4) | 416x416 | 30.4  |  18.5 FPS | 5.0 FPS | 30.0 FPS | 24.9 FPS |||||
-| [PP-PicoDet](https://github.com/Qengineering/PP-PicoDet-ncnn-Raspberry-Pi-4) | 320x320 | 27.0  |  24.0 FPS | 7.5 FPS | 53.7 FPS | 46.7 FPS |||||
-| [YoloFastestV2](https://github.com/Qengineering/YoloFastestV2-ncnn-Raspberry-Pi-4) | 352x352 | 24.1 |  38.4 FPS | 18.8 FPS | 78.5 FPS | 65.4 FPS | ||||
-| [YoloV2](https://github.com/Qengineering/YoloV2-ncnn-Raspberry-Pi-4) <sup>20</sup>| 416x416 | 19.2 |  10.1 FPS | 3.0 FPS | 24.0 FPS | 20.0 FPS | ||||
-| [YoloV3](https://github.com/Qengineering/YoloV3-ncnn-Raspberry-Pi-4) <sup>20</sup>| 352x352 tiny | 16.6 | 17.7 FPS | 4.4 FPS | 18.1 FPS | 15.0 FPS | ||||
-| [YoloV4](https://github.com/Qengineering/YoloV4-ncnn-Raspberry-Pi-4) | 416x416 tiny | 21.7 | 16.1 FPS | 3.4 FPS | 26.8 FPS | 22.4 FPS | ||||
-| [YoloV4](https://github.com/Qengineering/YoloV4-ncnn-Raspberry-Pi-4) | 608x608 full | 45.3 | 1.3 FPS | 0.2 FPS | 1.82 FPS | 1.5 FPS | ||||
-| [YoloV5](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 small | 22.5 | 5.0 FPS | 1.6 FPS | 14.9 FPS | 12.5 FPS | ||||
-| [YoloV6](https://github.com/Qengineering/YoloV6-ncnn-Raspberry-Pi-4) | 640x640 nano | 35.0 | 10.5 FPS | 2.7 FPS | 25.0 FPS | 20.8 FPS | ||||
-| [YoloV7](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 tiny | 38.7 | 8.5 FPS | 2.1 FPS | 21.5 FPS | 17.9 FPS | ||||
-| [YoloV8](https://github.com/Qengineering/YoloV8-ncnn-Raspberry-Pi-4) | 640x640 nano | 37.3 | 14.5 FPS | 3.1 FPS | 20.0 FPS | 16.3 FPS | ||||
-| [YoloV8](https://github.com/Qengineering/YoloV8-ncnn-Raspberry-Pi-4) | 640x640 small | 44.9 | 4.5 FPS | 1.47 FPS | 11.0 FPS | 9.2 FPS | ||||
-| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 nano | 25.8 | 22.6 FPS | 7.0 FPS | 34.2 FPS | 28.5 FPS | ||||
-| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 tiny | 32.8 | 11.35 FPS | 2.8 FPS | 21.8 FPS | 18.1 FPS | ||||
-| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 640x640 small | 40.5 | 3.65 FPS | 0.9 FPS | 9.0 FPS | 7.5 FPS | ||||
+| [NanoDet](https://github.com/Qengineering/NanoDet-ncnn-Raspberry-Pi-4) | 320x320 | 20.6  |  26.2 | 13.0 | 43.2  |36.0  |||||
+| [NanoDet Plus](https://github.com/Qengineering/NanoDetPlus-ncnn-Raspberry-Pi-4) | 416x416 | 30.4  |  18.5  | 5.0  | 30.0  | 24.9  |||||
+| [PP-PicoDet](https://github.com/Qengineering/PP-PicoDet-ncnn-Raspberry-Pi-4) | 320x320 | 27.0  |  24.0 | 7.5 | 53.7 | 46.7 |||||
+| [YoloFastestV2](https://github.com/Qengineering/YoloFastestV2-ncnn-Raspberry-Pi-4) | 352x352 | 24.1 |  38.4 | 18.8 | 78.5 | 65.4 | ||||
+| [YoloV2](https://github.com/Qengineering/YoloV2-ncnn-Raspberry-Pi-4) <sup>20</sup>| 416x416 | 19.2 |  10.1 | 3.0 | 24.0 | 20.0 | ||||
+| [YoloV3](https://github.com/Qengineering/YoloV3-ncnn-Raspberry-Pi-4) <sup>20</sup>| 352x352 tiny | 16.6 | 17.7 | 4.4 | 18.1 | 15.0 | ||||
+| [YoloV4](https://github.com/Qengineering/YoloV4-ncnn-Raspberry-Pi-4) | 416x416 tiny | 21.7 | 16.1 | 3.4 | 26.8 | 22.4 | ||||
+| [YoloV4](https://github.com/Qengineering/YoloV4-ncnn-Raspberry-Pi-4) | 608x608 full | 45.3 | 1.3 | 0.2 | 1.82 | 1.5 | ||||
+| [YoloV5](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 nano | 22.5 | 5.0 | 1.6 | 14.9 | 12.5 | 58.8 | 14.8 | 19.0 | 100 |
+| [YoloV5](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 small | 22.5 | 5.0 | 1.6 | 14.9 | 12.5 | 37.7 | 11.7 | 9.25 | 100 |
+| [YoloV6](https://github.com/Qengineering/YoloV6-ncnn-Raspberry-Pi-4) | 640x640 nano | 35.0 | 10.5 | 2.7 | 25.0 | 20.8 | 63.0 | 18.0 |||
+| [YoloV7](https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4) | 640x640 tiny | 38.7 | 8.5 | 2.1 | 21.5 | 17.9 |  53.4 | 16.1 | 15.0 ||
+| [YoloV8](https://github.com/Qengineering/YoloV8-ncnn-Raspberry-Pi-4) | 640x640 nano | 37.3 | 14.5 | 3.1 | 20.0 | 16.3 | 53.1 | 18.2 |||
+| [YoloV8](https://github.com/Qengineering/YoloV8-ncnn-Raspberry-Pi-4) | 640x640 small | 44.9 | 4.5 | 1.47 | 11.0 | 9.2 | 28.5 | 8.9 |||
+| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 nano | 25.8 | 22.6 | 7.0 | 34.2 | 28.5 | ||||
+| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 tiny | 32.8 | 11.35 | 2.8 | 21.8 | 18.1 | ||||
+| [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 640x640 small | 40.5 | 3.65 | 0.9 | 9.0 | 7.5 | 30.0 | 10.0 |||
 
 <b><sup>20</sup></b> Recognize 20 objects (VOC) instead of 80 (COCO)
 
